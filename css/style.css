@@ -1,0 +1,81 @@
+:root{
+    azulito-oscuro: #22577a; 
+    azulito-claro: #38A3A5; 
+    verde-azul: #57CC99; 
+    verde-claro: #80ED99; 
+    verde-palido: #C7F9CC; 
+   
+
+}
+
+body{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    font-family: 'Lato', sans-serif;
+}
+.scroll-section {
+    max-height: 100px;
+    overflow-y: auto;
+  }
+header{
+    display: flex;
+    padding-top: 0.5px;
+    padding-bottom: 1px;
+    justify-content: space-around;
+    align-items: center;
+    size: 20px;
+}
+
+h1{
+    text-align: center;
+    color: var(verde-azul); 
+    padding: 5px;
+}
+
+#boton_seleccion
+{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;;
+}
+.display-4{
+    color: #22577a;
+}
+h5{
+    text-align: center;
+    color: #57CC99;
+   
+}
+.card-title{
+   
+    size: 64rem;
+    padding: 2px;
+}
+
+.media{
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: space-around;
+text-align: center;
+    margin: 0 auto;
+
+    
+}
+
+
+b{
+    color: #22577a;
+    size: 18px;
+}
+
+.accordion-flush{
+    text-align: center;
+}
+
+footer{
+    
+    padding: 5px;
+}
+
+#boton-seleccion{
+    padding: 15rem;
+}
